@@ -14,4 +14,12 @@ let media = (total / 5);
 
 console.clear();
 
-console.log(`A sua media eh: ${media}`);
+if(media > 7){
+    console.log(`Aprovado`)
+}
+else if(media < 7 && media > 5){
+    console.log(`Em recuperação`)
+}
+else{
+    console.log(`Reprovado`)
+}
