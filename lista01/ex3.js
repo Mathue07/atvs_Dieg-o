@@ -5,4 +5,4 @@ let IoN = (num %2 === 0) ? "par" : "impar";
 
 console.clear()
 
-console.log(`O número digita é ${IoN}`)
+console.log(`O número digitado é ${IoN}`)

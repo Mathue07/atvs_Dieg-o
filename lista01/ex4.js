@@ -1,8 +1,10 @@
 const input = require('readline-sync');
 
-let coiso
+let coiso = ["#"]
 
-for(let i = 1; i < 7; i++){
+console.log("#")
+
+for(let i = 0; i < 6; i++){
     coiso += '#'
     console.log(`${coiso}`)
 }
