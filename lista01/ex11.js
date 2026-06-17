@@ -10,6 +10,7 @@ function pdvotar(idade){
     else{
         console.log("Não pode votar devido sua baixa idade peniana")
     }
+    return idade
 }
 
 console.log(`${pdvotar(idade)}`)
