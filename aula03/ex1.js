@@ -7,7 +7,7 @@ const euné = {
 
 console.clear()
 
-console.log(`Eu, ${euné.nome}, tenho ${euné.idade} anos, sou de ${euné.cidade}, e curso ${euné.curso}.`)
+console.log(`Eu, ${euné.nome}, tenho ${euné.idade} anos, sou de ${euné.cidade}, e to cursando ${euné.curso}.`)
 
 euné.cidade = "Itália (pq sim)"
 
