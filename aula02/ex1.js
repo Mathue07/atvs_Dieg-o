@@ -1,10 +1,10 @@
 const input = require('readline-sync');
 
-let n1
-let n2
+let num1
+let num2
 
-n1 = Number(input.question("Digite o primeiro Num: "))
-n2 = Number(input.question("Digite o segundo: "))
+num1 = Number(input.question("Digite o primeiro Num: "))
+num2 = Number(input.question("Digite o segundo: "))
 
 console.clear()
 
@@ -27,12 +27,12 @@ function dividir(a, b) {
     return a / b;
 }
 
-let soma = somar(n1, n2);
-let sub = subtrair(n1, n2);
-let mult = multiplicar(n1, n2);
-let div = dividir(n1, n2);
+let soma = somar(num1, num2);
+let sub = subtrair(num1, num2);
+let mult = multiplicar(num1, num2);
+let div = dividir(num1, num2);
 
-console.log(`Resultados dos nums ${n1} e ${n2}:`);
+console.log(`Resultados dos nums ${num1} e ${num2}:`);
 
 console.log("Soma: " + soma);
 console.log("Subtração: " + sub);
