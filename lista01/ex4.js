@@ -1,5 +1,3 @@
-const input = require('readline-sync')
-
 let coiso = ["#"]
 
 console.log("#")

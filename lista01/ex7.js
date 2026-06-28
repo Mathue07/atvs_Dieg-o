@@ -1,5 +1,3 @@
-const input = require("readline-sync");
-
 let soma = 0
 let num = 50
 
