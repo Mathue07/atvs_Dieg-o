@@ -1,0 +1,17 @@
+POST http://localhost:3000/lanches
+Content-Type: application/json
+
+{
+    "id": 4 ,
+    "nome": "Coxinha de frango com catupiry" ,
+    "preço": 11.00
+}
+
+POST http://localhost:3000/pintos-de-borracha
+Content-Type: application/json
+
+{
+    "id": "2",
+    "nome": "",
+    "preço": 12.99
+}
