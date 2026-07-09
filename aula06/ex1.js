@@ -25,6 +25,10 @@ const lanches = [
         {id: 3, nome: "Coxinha de costela", preço: 6.00}
 ]
 
+app.get('/lanches', (req, res) => {
+    
+})
+
 app.post(’/lanches’, (req, res) => {
 
     const novoAluno = {
