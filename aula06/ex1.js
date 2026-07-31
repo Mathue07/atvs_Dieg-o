@@ -5,22 +5,15 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/inicio', (req, res) => {
-
-    res.json({"mensagem de cu sujo": " Meu servidor NÃO esta no ar!"});
-    }
-);
 
 app.get('/inicio', (req, res) => {
-
-    console.log("Olá! Bem vindo a esse cu do mundo, um site onde você não pode fazer bosta nenhuma. Aproveite!")
-    
+    res.status(201).json("Olá! Bem vindo a esse cu do mundo, um site onde você não pode fazer bosta nenhuma. Aproveite!");
 })
 
 const lanches = [
         {id: "1", nome: "Pastel de Pizza", preço: 6.59},
         {id: "2", nome: "Risoli de carne", preço: 5.00},
-        {id: "3", nome: "Esfiha de Carne", preço: 10.00}
+        {id: "3", nome: "Esfres.status(201).json(novoLanche);iha de Carne", preço: 10.00}
     ];
 
 app.get('/lanches', (req, res) => {
@@ -78,5 +71,5 @@ app.get('/pintos-de-borracha/:id', (req, res) => {
 })
 
 app.listen(3000, () => {
-    console.log(" Servidor rodando em http://localhost:3000 ");
+    console.log(" Servidor rodando em http://localhost:3000/inicio ");
 });
